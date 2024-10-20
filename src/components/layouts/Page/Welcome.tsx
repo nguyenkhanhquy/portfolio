@@ -304,6 +304,21 @@ const Welcome = () => {
                                                 />
                                             </div>
                                         </li>
+
+                                        <li style={{ opacity: 1, transform: "none" }}>
+                                            <div className="h-3 w-[1px] bg-slate-300 dark:bg-slate-700"></div>
+                                        </li>
+
+                                        <li style={{ opacity: 1, transform: "none" }}>
+                                            <div className="transition duration-200 hover:text-[#007ACC]">
+                                                <img
+                                                    loading="lazy"
+                                                    className="h-6 w-6"
+                                                    src="/svg/docker.svg"
+                                                    alt="docker"
+                                                />
+                                            </div>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
