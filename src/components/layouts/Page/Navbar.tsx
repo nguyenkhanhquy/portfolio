@@ -1,5 +1,5 @@
-import { useState } from "react";
-import { Link } from "react-router-dom";
+import {useState} from "react";
+import {Link} from "react-router-dom";
 
 import webLogo from "../../../assets/images/logo.jpg";
 
@@ -16,12 +16,13 @@ const Navbar = () => {
 
     return (
         <nav>
-            <div className="fixed top-0 left-0 right-0 bg-slate-900/90 border-b-[1px] border-slate-50/10 backdrop-blur-sm z-50">
+            <div
+                className="fixed top-0 left-0 right-0 bg-slate-900/90 border-b-[1px] border-slate-50/10 backdrop-blur-sm z-50">
                 <div className="max-w-6xl m-auto z-1000">
                     <div className="container-inner h-14 flex items-center px-4">
                         <div className="logo-col">
                             <Link to="/" className="group flex items-center">
-                                <img src={webLogo} alt="logo" className="w-auto h-10 rounded-full" />
+                                <img src={webLogo} alt="logo" className="w-auto h-10 rounded-full"/>
                             </Link>
                         </div>
                         <div className="menu-col ml-auto flex items-center">

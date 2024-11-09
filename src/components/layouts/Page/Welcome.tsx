@@ -7,7 +7,8 @@ const Welcome = () => {
                     <div className="relative">
                         <div className="relative z-10">
                             <div className="w-full lg:w-3/5">
-                                <div className="mb-1 flex items-center gap-1 text-2xl text-slate-600 md:mb-0 md:gap-2 md:text-4xl dark:text-slate-400">
+                                <div
+                                    className="mb-1 flex items-center gap-1 text-2xl text-slate-600 md:mb-0 md:gap-2 md:text-4xl dark:text-slate-400">
                                     Hi!
                                 </div>
                                 <span className="text-slate-700 dark:text-slate-300">
@@ -18,7 +19,8 @@ const Welcome = () => {
                             </div>
 
                             <div className="grid grid-cols-1 md:grid-cols-2 md:flex">
-                                <div className="w-full lg:w-1/3 pt-5 text-base text-slate-600 md:text-xl dark:text-slate-400">
+                                <div
+                                    className="w-full lg:w-1/3 pt-5 text-base text-slate-600 md:text-xl dark:text-slate-400">
                                     <div>
                                         <p>
                                             A{" "}
@@ -44,12 +46,12 @@ const Welcome = () => {
                                 <div className="w-full">
                                     <p
                                         className="mb-2.5 text-sm text-slate-600 dark:text-slate-400"
-                                        style={{ opacity: 1, transform: "none" }}
+                                        style={{opacity: 1, transform: "none"}}
                                     >
                                         Tech stack/tools:
                                     </p>
                                     <ul className="w-full flex flex-wrap items-center gap-3.5 text-slate-500 dark:text-slate-500">
-                                        <li style={{ opacity: 1, transform: "none" }}>
+                                        <li style={{opacity: 1, transform: "none"}}>
                                             <div className="transition duration-200 hover:text-[#61DAFB]">
                                                 <img
                                                     loading="lazy"
@@ -60,11 +62,11 @@ const Welcome = () => {
                                             </div>
                                         </li>
 
-                                        <li style={{ opacity: 1, transform: "none" }}>
+                                        <li style={{opacity: 1, transform: "none"}}>
                                             <div className="h-3 w-[1px] bg-slate-300 dark:bg-slate-700"></div>
                                         </li>
 
-                                        <li style={{ opacity: 1, transform: "none" }}>
+                                        <li style={{opacity: 1, transform: "none"}}>
                                             <div className="transition duration-200 hover:text-[#3178C6]">
                                                 <img
                                                     loading="lazy"
@@ -75,11 +77,11 @@ const Welcome = () => {
                                             </div>
                                         </li>
 
-                                        <li style={{ opacity: 1, transform: "none" }}>
+                                        <li style={{opacity: 1, transform: "none"}}>
                                             <div className="h-3 w-[1px] bg-slate-300 dark:bg-slate-700"></div>
                                         </li>
 
-                                        <li style={{ opacity: 1, transform: "none" }}>
+                                        <li style={{opacity: 1, transform: "none"}}>
                                             <div className="transition duration-200 hover:text-[#3178C6]">
                                                 <img
                                                     loading="lazy"
@@ -90,21 +92,21 @@ const Welcome = () => {
                                             </div>
                                         </li>
 
-                                        <li style={{ opacity: 1, transform: "none" }}>
+                                        <li style={{opacity: 1, transform: "none"}}>
                                             <div className="h-3 w-[1px] bg-slate-300 dark:bg-slate-700"></div>
                                         </li>
 
-                                        <li style={{ opacity: 1, transform: "none" }}>
+                                        <li style={{opacity: 1, transform: "none"}}>
                                             <div className="transition duration-200 hover:text-[#61DAFB]">
-                                                <img loading="lazy" className="h-6 w-6" src="/svg/npm.svg" alt="npm" />
+                                                <img loading="lazy" className="h-6 w-6" src="/svg/npm.svg" alt="npm"/>
                                             </div>
                                         </li>
 
-                                        <li style={{ opacity: 1, transform: "none" }}>
+                                        <li style={{opacity: 1, transform: "none"}}>
                                             <div className="h-3 w-[1px] bg-slate-300 dark:bg-slate-700"></div>
                                         </li>
 
-                                        <li style={{ opacity: 1, transform: "none" }}>
+                                        <li style={{opacity: 1, transform: "none"}}>
                                             <div className="transition duration-200 hover:text-[#06B6D4]">
                                                 <img
                                                     loading="lazy"
@@ -115,11 +117,11 @@ const Welcome = () => {
                                             </div>
                                         </li>
 
-                                        <li style={{ opacity: 1, transform: "none" }}>
+                                        <li style={{opacity: 1, transform: "none"}}>
                                             <div className="h-3 w-[1px] bg-slate-300 dark:bg-slate-700"></div>
                                         </li>
 
-                                        <li style={{ opacity: 1, transform: "none" }}>
+                                        <li style={{opacity: 1, transform: "none"}}>
                                             <div className="transition duration-200 hover:text-[#0055FF]">
                                                 <img
                                                     loading="lazy"
@@ -130,21 +132,22 @@ const Welcome = () => {
                                             </div>
                                         </li>
 
-                                        <li style={{ opacity: 1, transform: "none" }}>
+                                        <li style={{opacity: 1, transform: "none"}}>
                                             <div className="h-3 w-[1px] bg-slate-300 dark:bg-slate-700"></div>
                                         </li>
 
-                                        <li style={{ opacity: 1, transform: "none" }}>
-                                            <div className="transition duration-200 hover:text-[#000000] dark:hover:text-[#FFFFFF]">
-                                                <img loading="lazy" className="h-6 w-6" src="/svg/git.svg" alt="git" />
+                                        <li style={{opacity: 1, transform: "none"}}>
+                                            <div
+                                                className="transition duration-200 hover:text-[#000000] dark:hover:text-[#FFFFFF]">
+                                                <img loading="lazy" className="h-6 w-6" src="/svg/git.svg" alt="git"/>
                                             </div>
                                         </li>
 
-                                        <li style={{ opacity: 1, transform: "none" }}>
+                                        <li style={{opacity: 1, transform: "none"}}>
                                             <div className="h-3 w-[1px] bg-slate-300 dark:bg-slate-700"></div>
                                         </li>
 
-                                        <li style={{ opacity: 1, transform: "none" }}>
+                                        <li style={{opacity: 1, transform: "none"}}>
                                             <div className="transition duration-200 hover:text-[#007ACC]">
                                                 <img
                                                     loading="lazy"
@@ -155,11 +158,11 @@ const Welcome = () => {
                                             </div>
                                         </li>
 
-                                        <li style={{ opacity: 1, transform: "none" }}>
+                                        <li style={{opacity: 1, transform: "none"}}>
                                             <div className="h-3 w-[1px] bg-slate-300 dark:bg-slate-700"></div>
                                         </li>
 
-                                        <li style={{ opacity: 1, transform: "none" }}>
+                                        <li style={{opacity: 1, transform: "none"}}>
                                             <div className="transition duration-200 hover:text-[#007ACC]">
                                                 <img
                                                     loading="lazy"
@@ -170,11 +173,11 @@ const Welcome = () => {
                                             </div>
                                         </li>
 
-                                        <li style={{ opacity: 1, transform: "none" }}>
+                                        <li style={{opacity: 1, transform: "none"}}>
                                             <div className="h-3 w-[1px] bg-slate-300 dark:bg-slate-700"></div>
                                         </li>
 
-                                        <li style={{ opacity: 1, transform: "none" }}>
+                                        <li style={{opacity: 1, transform: "none"}}>
                                             <div className="transition duration-200 hover:text-[#007ACC]">
                                                 <img
                                                     loading="lazy"
@@ -185,11 +188,11 @@ const Welcome = () => {
                                             </div>
                                         </li>
 
-                                        <li style={{ opacity: 1, transform: "none" }}>
+                                        <li style={{opacity: 1, transform: "none"}}>
                                             <div className="h-3 w-[1px] bg-slate-300 dark:bg-slate-700"></div>
                                         </li>
 
-                                        <li style={{ opacity: 1, transform: "none" }}>
+                                        <li style={{opacity: 1, transform: "none"}}>
                                             <div className="transition duration-200 hover:text-[#007ACC]">
                                                 <img
                                                     loading="lazy"
@@ -200,11 +203,11 @@ const Welcome = () => {
                                             </div>
                                         </li>
 
-                                        <li style={{ opacity: 1, transform: "none" }}>
+                                        <li style={{opacity: 1, transform: "none"}}>
                                             <div className="h-3 w-[1px] bg-slate-300 dark:bg-slate-700"></div>
                                         </li>
 
-                                        <li style={{ opacity: 1, transform: "none" }}>
+                                        <li style={{opacity: 1, transform: "none"}}>
                                             <div className="transition duration-200 hover:text-[#007ACC]">
                                                 <img
                                                     loading="lazy"
@@ -215,11 +218,11 @@ const Welcome = () => {
                                             </div>
                                         </li>
 
-                                        <li style={{ opacity: 1, transform: "none" }}>
+                                        <li style={{opacity: 1, transform: "none"}}>
                                             <div className="h-3 w-[1px] bg-slate-300 dark:bg-slate-700"></div>
                                         </li>
 
-                                        <li style={{ opacity: 1, transform: "none" }}>
+                                        <li style={{opacity: 1, transform: "none"}}>
                                             <div className="transition duration-200 hover:text-[#007ACC]">
                                                 <img
                                                     loading="lazy"
@@ -230,11 +233,11 @@ const Welcome = () => {
                                             </div>
                                         </li>
 
-                                        <li style={{ opacity: 1, transform: "none" }}>
+                                        <li style={{opacity: 1, transform: "none"}}>
                                             <div className="h-3 w-[1px] bg-slate-300 dark:bg-slate-700"></div>
                                         </li>
 
-                                        <li style={{ opacity: 1, transform: "none" }}>
+                                        <li style={{opacity: 1, transform: "none"}}>
                                             <div className="transition duration-200 hover:text-[#007ACC]">
                                                 <img
                                                     loading="lazy"
@@ -245,11 +248,11 @@ const Welcome = () => {
                                             </div>
                                         </li>
 
-                                        <li style={{ opacity: 1, transform: "none" }}>
+                                        <li style={{opacity: 1, transform: "none"}}>
                                             <div className="h-3 w-[1px] bg-slate-300 dark:bg-slate-700"></div>
                                         </li>
 
-                                        <li style={{ opacity: 1, transform: "none" }}>
+                                        <li style={{opacity: 1, transform: "none"}}>
                                             <div className="transition duration-200 hover:text-[#007ACC]">
                                                 <img
                                                     loading="lazy"
@@ -260,11 +263,11 @@ const Welcome = () => {
                                             </div>
                                         </li>
 
-                                        <li style={{ opacity: 1, transform: "none" }}>
+                                        <li style={{opacity: 1, transform: "none"}}>
                                             <div className="h-3 w-[1px] bg-slate-300 dark:bg-slate-700"></div>
                                         </li>
 
-                                        <li style={{ opacity: 1, transform: "none" }}>
+                                        <li style={{opacity: 1, transform: "none"}}>
                                             <div className="transition duration-200 hover:text-[#007ACC]">
                                                 <img
                                                     loading="lazy"
@@ -275,11 +278,11 @@ const Welcome = () => {
                                             </div>
                                         </li>
 
-                                        <li style={{ opacity: 1, transform: "none" }}>
+                                        <li style={{opacity: 1, transform: "none"}}>
                                             <div className="h-3 w-[1px] bg-slate-300 dark:bg-slate-700"></div>
                                         </li>
 
-                                        <li style={{ opacity: 1, transform: "none" }}>
+                                        <li style={{opacity: 1, transform: "none"}}>
                                             <div className="transition duration-200 hover:text-[#007ACC]">
                                                 <img
                                                     loading="lazy"
@@ -290,11 +293,11 @@ const Welcome = () => {
                                             </div>
                                         </li>
 
-                                        <li style={{ opacity: 1, transform: "none" }}>
+                                        <li style={{opacity: 1, transform: "none"}}>
                                             <div className="h-3 w-[1px] bg-slate-300 dark:bg-slate-700"></div>
                                         </li>
 
-                                        <li style={{ opacity: 1, transform: "none" }}>
+                                        <li style={{opacity: 1, transform: "none"}}>
                                             <div className="transition duration-200 hover:text-[#007ACC]">
                                                 <img
                                                     loading="lazy"
@@ -305,11 +308,11 @@ const Welcome = () => {
                                             </div>
                                         </li>
 
-                                        <li style={{ opacity: 1, transform: "none" }}>
+                                        <li style={{opacity: 1, transform: "none"}}>
                                             <div className="h-3 w-[1px] bg-slate-300 dark:bg-slate-700"></div>
                                         </li>
 
-                                        <li style={{ opacity: 1, transform: "none" }}>
+                                        <li style={{opacity: 1, transform: "none"}}>
                                             <div className="transition duration-200 hover:text-[#007ACC]">
                                                 <img
                                                     loading="lazy"
@@ -327,13 +330,14 @@ const Welcome = () => {
                         {/* Avatar */}
                         <div className="pointer-events-none absolute -top-8 right-0 z-0 hidden select-none lg:block">
                             <div className="relative h-[590px] w-[603px]">
-                                <div className="absolute top-20 right-0 h-[320px] w-[320px] rounded-full bg-gradient-to-t from-accent-400/20 dark:from-accent-600/10">
+                                <div
+                                    className="absolute top-20 right-0 h-[320px] w-[320px] rounded-full bg-gradient-to-t from-accent-400/20 dark:from-accent-600/10">
                                     <div className="absolute right-0 bottom-0 overflow-hidden hidden lg:block">
                                         <img
                                             alt="me"
                                             src="/images/avatar.jpg"
                                             className="hidden lg:block dark:brightness-[.82] rounded-3xl"
-                                            style={{ color: "transparent" }}
+                                            style={{color: "transparent"}}
                                         />
                                     </div>
                                 </div>

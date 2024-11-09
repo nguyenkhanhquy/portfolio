@@ -1,4 +1,4 @@
-import { BrowserRouter } from "react-router-dom";
+import {BrowserRouter} from "react-router-dom";
 
 import Navbar from "./components/layouts/Page/Navbar";
 import Welcome from "./components/layouts/Page/Welcome";
@@ -9,10 +9,10 @@ function App() {
     return (
         <>
             <BrowserRouter>
-                <Navbar />
-                <Welcome />
-                <Contact />
-                <Footer />
+                <Navbar/>
+                <Welcome/>
+                <Contact/>
+                <Footer/>
             </BrowserRouter>
         </>
     );
